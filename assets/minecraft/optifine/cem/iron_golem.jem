@@ -1,0 +1,117 @@
+{
+	"texture": "shrek.png",
+	"textureSize": [128, 128],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -30.37601, 5.62277],
+			"rotate": [-7.5, 0, 0],
+			"boxes": [
+				{"coordinates": [-4, 31.92157, -3.04634, 8, 8, 8], "textureOffset": [15, 46]},
+				{"coordinates": [-3, 31.92157, -4.04634, 6, 5, 1], "textureOffset": [24, 36]},
+				{"coordinates": [3, 32.92157, -4.04634, 1, 3, 1], "textureOffset": [14, 38]},
+				{"coordinates": [-4, 32.92157, -4.04634, 1, 3, 1], "textureOffset": [19, 38]},
+				{"coordinates": [1, 36.92157, -3.4258, 2, 1, 1], "textureOffset": [26, 32]},
+				{"coordinates": [-3, 36.92157, -3.4258, 2, 1, 1], "textureOffset": [34, 32]}
+			],
+			"submodels": [
+				{
+					"id": "head2",
+					"invertAxis": "xy",
+					"translate": [4, 39.24251, 0.55709],
+					"rotate": [-6.15518, 4.29357, 34.76905],
+					"boxes": [
+						{"coordinates": [-4, -1, -1, 5, 1, 2], "textureOffset": [15, 81]},
+						{"coordinates": [1, -2, -1, 1, 3, 2], "textureOffset": [17, 72]}
+					]
+				},
+				{
+					"id": "head3",
+					"invertAxis": "xy",
+					"translate": [-4, 39.24251, 0.55709],
+					"rotate": [-6.3448, -4.2936, -34.769],
+					"boxes": [
+						{"coordinates": [-1, -1, -1, 5, 1, 2], "textureOffset": [0, 81]},
+						{"coordinates": [-2, -2, -1, 1, 3, 2], "textureOffset": [2, 73]}
+					]
+				}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -31, -1],
+			"rotate": [2.5, 0, 0],
+			"boxes": [
+				{"coordinates": [-8, 23, -4, 16, 10, 9], "textureOffset": [78, 11]},
+				{"coordinates": [1, 24, -4.5, 7, 8, 1], "textureOffset": [89, 47]},
+				{"coordinates": [-8, 24, -4.5, 7, 8, 1], "textureOffset": [89, 56]},
+				{"coordinates": [8, 24, -4, 1, 9, 9], "textureOffset": [108, 31]},
+				{"coordinates": [-9, 24, -4, 1, 9, 9], "textureOffset": [108, 49]},
+				{"coordinates": [-7.5, 13, -5, 15, 10, 10], "textureOffset": [78, 67], "sizeAdd": 0.5},
+				{"coordinates": [-8.5, 14, -3.5, 17, 8, 9], "textureOffset": [6, 6], "sizeAdd": 0.5}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [0, -31, 1],
+			"boxes": [
+				{"coordinates": [9, 29.23853, -3.01142, 4, 3, 6], "textureOffset": [56, 81]},
+				{"coordinates": [9, 20.23853, -3.01142, 5, 9, 6], "textureOffset": [55, 90]},
+				{"coordinates": [9, 15.23853, -3.01142, 4, 5, 6], "textureOffset": [55, 105]},
+				{"coordinates": [9, 11.23853, -2.01142, 4, 4, 4], "textureOffset": [54, 116]}
+			]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"translate": [0, -31, 1],
+			"boxes": [
+				{"coordinates": [-13, 29.23853, -3.01142, 4, 3, 6], "textureOffset": [31, 81]},
+				{"coordinates": [-14, 20.23853, -3.01142, 5, 9, 6], "textureOffset": [30, 90]},
+				{"coordinates": [-13, 15.23853, -3.01142, 4, 5, 6], "textureOffset": [30, 105]},
+				{"coordinates": [-13, 11.23853, -2.01142, 4, 4, 4], "textureOffset": [29, 116]}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-5, -13, 0],
+			"boxes": [
+				{"coordinates": [1.5, 10, -4, 6, 3, 7], "textureOffset": [81, 87]},
+				{"coordinates": [2.5, 7, -4, 5, 3, 7], "textureOffset": [83, 98]},
+				{"coordinates": [3.5, 3, -3, 4, 4, 5], "textureOffset": [85, 108]}
+			],
+			"submodels": [
+				{
+					"id": "right_leg_sub_0",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"mirrorTexture": "u",
+					"boxes": [
+						{"coordinates": [3.5, 0, -5, 4, 3, 8], "textureOffset": [82, 117]}
+					]
+				}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [5, -13, 0],
+			"boxes": [
+				{"coordinates": [-7.5, 10, -4, 6, 3, 7], "textureOffset": [0, 87]},
+				{"coordinates": [-7.5, 7, -4, 5, 3, 7], "textureOffset": [0, 98]},
+				{"coordinates": [-7.5, 3, -3, 4, 4, 5], "textureOffset": [0, 108]},
+				{"coordinates": [-7.5, 0, -5, 4, 3, 8], "textureOffset": [0, 117]}
+			]
+		}
+	]
+}

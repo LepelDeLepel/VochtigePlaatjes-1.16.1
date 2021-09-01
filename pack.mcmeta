@@ -1,0 +1,13 @@
+﻿{
+  "pack": {
+    "pack_format": 6,
+    "description": "\u00A72          G O E I E \u00A7n\n\u00A73            K E K"
+  },
+  "language": {
+     "en_sa": {
+        "name": "Sappig Taaltje",
+        "region": "Heerhugowaard",
+        "bidirectional": false
+     }
+  }  
+}
